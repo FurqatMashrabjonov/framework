@@ -1,0 +1,28 @@
+{
+    "name": "furqat/framework",
+    "description": "This simple PHP based framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "src/Helpers/Functions.php"
+        ],
+        "psr-4": {
+            "Furqat\\Framework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Furkatbek Mashrabjonov",
+            "email": "php_lesson@mail.ru"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
